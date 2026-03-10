@@ -57,8 +57,8 @@ while run:
         b = 700
 
     screen.fill((200,200,200))
-    ball1 = pygame.draw.rect(screen,(30,30,0),(x,y,20,20))
-    ball2 = pygame.draw.rect(screen,(0,100,30),(a,b,20,20))
+    ball1 = pygame.draw.circle(screen,(30,30,0),(x,y),10)
+    ball2 = pygame.draw.circle(screen,(0,100,30),(a,b),10)
     red_rect1 = pygame.draw.rect(screen,(225,0,0),(60,0,20,500))
     red_rect2 = pygame.draw.rect(screen,(225,0,0),(140,340,20,700))
     red_rect3 = pygame.draw.rect(screen,(225,0,0),(200,0,20,500))
